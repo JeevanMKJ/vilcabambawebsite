@@ -17,7 +17,7 @@ export default function About() {
         <div className="max-w-2xl xl:col-span-2">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Gobierno Parroquial</h2>
           <p className="mt-6 text-2xl leading-8 text-gray-600">
-            "Trabajo y compromiso con Vilcabamba"
+          &quot;Trabajo y compromiso con Vilcabamba&quot;
           </p>
         </div>
         <ul role="list" className="-mt-12 space-y-12 divide-y divide-gray-200 xl:col-span-3">
