@@ -27,12 +27,11 @@ export default function Home({ posts }) {
       <LogoCloud />
       <ImageCta />
       <Mission />
-      <div className="bg-white py-24 sm:py-24">
+      {/* <div className="bg-white py-24 sm:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Link href="/posts">
             <div className="mx-auto max-w-xs text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Publicaciones</h2>
-              {/* <p className="bg-gray-600 mt-2 text-lg leading-8 rounded bg-white/10 px-2 py-1 font-semibold text-white shadow-sm hover:bg-gray-400"> */}
               <p className="mt-2 text-lg leading-8 text-gray-600">
                 Lorem ipsum dolor sit amet
                 <span aria-hidden="true"> → </span>
@@ -40,11 +39,11 @@ export default function Home({ posts }) {
             </div>
           </Link>
           <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-            {/* {posts.map((post) => <LandingPagePostCard post={post.node} key={post.title} />)} */}
+            {posts.map((post) => <LandingPagePostCard post={post.node} key={post.title} />)}
             {posts.map((post, index) => <LandingPagePostCard key={index} post={post.node} />)}
           </div>
         </div>
-      </div>
+      </div> */}
       <Facebook />
     </div>
   )
