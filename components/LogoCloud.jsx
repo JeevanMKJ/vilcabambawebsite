@@ -38,10 +38,10 @@ export default function LogoCloud() {
         <div className="grid grid-cols-1 items-center gap-x-8 gap-y-16 lg:grid-cols-2">
           <div className="mx-auto w-full max-w-xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-gray-900">Vilcabamba es un Rincón Mágico del Ecuador</h2>
-            {/* <p className="mt-6 text-lg leading-8 text-gray-600"> */}
-            <p className="mt-6 text-lg leading-8 text-gray-700">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et, egestas tempus tellus etiam sed. Quam a
-              scelerisque amet ullamcorper eu enim et fermentum, augue.
+            <p className="mt-6 text-sm leading-8 text-gray-700">
+              El Ministerio de Turismo del Ecuador proclamó oficialmente a la parroquia Vilcabamba, del cantón Loja, como un Rincón Mágico del Ecuador. Esta distinción se otorga en reconocimiento a la belleza inigualable, riqueza cultural y patrimonio natural de Vilcabamba, que la convierten en un destino único y atractivo para el turismo nacional e internacional.
+
+              El programa Pueblos y Rincones Mágicos del Ecuador busca impulsar y promover destinos con características únicas como Vilcabamba, que en su conjunto contribuyen a resaltar la diversidad y riqueza de nuestro país. Con esta declaratoria, Vilcabamba se convierte en un importante referente turístico, fortaleciendo su acceso a mercados nacionales y extranjeros.
             </p>
           </div>
           <div className="mx-auto grid w-full max-w-xl grid-cols-2 items-center gap-y-12 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:pl-8">

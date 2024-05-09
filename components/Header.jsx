@@ -134,12 +134,12 @@ export default function Header() {
             <div className="space-y-1 px-2 pb-3 pt-2">
               <Link href="/posts">
                 <span className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white">
-                 News
+                  Publicaciones
                 </span>
               </Link>
               <Link href="/about">
                 <span className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-white">
-                 About
+                  Sobre Nosotros
                 </span>
               </Link>
                 {/* Dropdown menu for categories on small screens */}
