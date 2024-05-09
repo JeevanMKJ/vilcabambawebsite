@@ -15,3 +15,4 @@ export {default as Section} from './Section';
 export {default as LandingPagePostCard} from './LandingPagePostCard';
 export {default as ImageCta} from './ImageCta';
 export {default as Mission} from './Mission';
+export {default as Loader} from './Loader';

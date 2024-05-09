@@ -21,6 +21,7 @@ export default function transparency() {
        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 gap-x-10 gap-y-10">
          {transparent.map((transparent) => (
            <div
+            key={transparent.file}
             //  className="relative flex items-center space-x-3 rounded-lg border border-gray-600 bg-gray-200 px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400 hover:scale-105 transform transition-transform duration-200 hover:bg-lime-200 hover:bg-opacity-40"
             className="relative flex items-center space-x-3 rounded-lg border border-gray-600 bg-gray-200 px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400 hover:scale-105 transform transition-transform duration-200 hover:bg-lime-500 hover:bg-opacity-60"
            >

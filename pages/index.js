@@ -27,7 +27,7 @@ export default function Home({ posts }) {
       <LogoCloud />
       <ImageCta />
       <Mission />
-      {/* <div className="bg-white py-24 sm:py-24">
+      <div className="bg-white py-24 sm:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Link href="/posts">
             <div className="mx-auto max-w-xs text-center">
@@ -43,7 +43,7 @@ export default function Home({ posts }) {
             {posts.map((post, index) => <LandingPagePostCard key={index} post={post.node} />)}
           </div>
         </div>
-      </div> */}
+      </div>
       <Facebook />
     </div>
   )
