@@ -1,7 +1,4 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
-// import styles from '../styles/Home.module.css'
-import {PostCard, Categories, PostWidget} from '../components'
+import { PostCard } from '../components'
 import { getPosts } from '../services'
 
 export default function posts({ posts }) {
@@ -14,8 +11,7 @@ export default function posts({ posts }) {
         </div>
         <div className='lg:col-span-4 col-span-1'>
           <div className='lg:sticky relative top-8'>
-            <PostWidget />
-            {/* <Categories /> */}
+            {/* <PostWidget /> */}
           </div>
         </div>
       </div>

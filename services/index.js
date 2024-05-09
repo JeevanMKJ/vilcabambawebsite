@@ -34,6 +34,8 @@ export const getPosts = async () => {
   `
   const result = await request(graphqlAPI, query)
 
+  const sortedPosts = result.postsConnection.edges.sort((a, b) => new Date(b.node.createdAt) - new Date(a.node.createdAt));
+
   return result.postsConnection.edges;
 };
 

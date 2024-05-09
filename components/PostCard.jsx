@@ -44,21 +44,11 @@ const PostCard = ({ post }) => (
           />
           <div className="text-sm leading-6">
             <p className="font-semibold text-gray-900">
-              {/* <Link href={`/author/${post.author.slug}`}> */}
-                {/* <span> */}
-                 {/* <span className="absolute inset-0" /> */}
-                 {post.author.name}
-                {/* </span> */}
-              {/* </Link> */}
+              {post.author.name}
             </p>
           </div>
         </div>
       </div>
-      {/* <div className="text-center">
-        <Link href={`/post/${post.slug}`}>
-          <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-green-700 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Continue Reading</span>
-        </Link>
-      </div> */}
     </div>
  </article>
 );
