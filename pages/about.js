@@ -65,7 +65,179 @@ const people = [
     role: 'President of Vilcabamba',
     imageUrl:
       '/Victor_David_Carpio.PNG',
-    bio: 'Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Luis Fernando Marchena Sanchez',
+    role: 'Vocal',
+    imageUrl:
+      '',
+    bio: ']',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Kleber Antonio Ortega Abarca',
+    role: 'Vocal',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Elsa Maria OrtegaVillavicencio',
+    role: 'Vicepresidenta',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Carlos Nicholas Ortiz Armijos',
+    role: 'Vocal',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Patricio Leonardo Macas Abarca',
+    role: 'Technico de Infreaestructura',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Wendy Juleicy Piedra Guaycha',
+    role: 'Secretaria Tesorera',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Maria Antonia Bejarano Ortega',
+    role: 'Coordinadora General',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Andrea Stefanny Sanchez Granda',
+    role: 'Psicología Clínica',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Angelica Maria Valencia Montano',
+    role: 'Terapista Ocupacional',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Jorge Ivan Lima Cabera',
+    role: 'Trabajador Social',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Alexandra Elizabeth Rojas Carpio',
+    role: 'Cuidadora Tallerista',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Gilson Jorge Iniguez Gil',
+    role: 'Servicios Generales',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'John Francisco Macanchi Pesantes',
+    role: 'Servicios de Limpieza',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Maria Fernanda Armijos Zaruma',
+    role: 'Promotor de cuidado diario',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Karla Maribel Leon Picoita',
+    role: 'Promotor de cuidado diario',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Ermita del Carmen Ochoa Abad',
+    role: 'Promotor de cuidado diario',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Ayda Mariela Ochoa Jimenez',
+    role: 'Promotor de cuidado diario',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+  {
+    name: 'Claudia Consuelo Castillo Tacuri',
+    role: 'Terapista Fisica',
+    imageUrl:
+      '',
+    bio: '',
+    xUrl: '#',
+    linkedinUrl: '#',
+  },
+
+  {
+    name: 'Ibeth Silvana Guerrero Jumbo',
+    role: 'Promotor Social',
+    imageUrl:
+      '',
+    bio: '',
     xUrl: '#',
     linkedinUrl: '#',
   },
@@ -124,8 +296,8 @@ export default function About() {
               <div className="max-w-xl flex-auto">
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">{person.name}</h3>
                 <p className="text-base leading-7 text-gray-600">{person.role}</p>
-                <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p>
-                <ul role="list" className="mt-6 flex gap-x-6">
+                {/* <p className="mt-6 text-base leading-7 text-gray-600">{person.bio}</p> */}
+                {/* <ul role="list" className="mt-6 flex gap-x-6">
                   <li>
                     <a href={person.xUrl} className="text-gray-400 hover:text-gray-500">
                       <span className="sr-only">X</span>
@@ -146,7 +318,7 @@ export default function About() {
                       </svg>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </li>
           ))}

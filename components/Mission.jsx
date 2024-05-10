@@ -36,7 +36,7 @@ export default function Vision() {
       </div>
       <div className="relative mx-auto max-w-7xl py-24 sm:py-32 lg:px-8 lg:py-20">
         <div className="pl-6 pr-6 md:ml-auto md:w-2/3 md:pl-16 lg:w-1/2 lg:pl-24 lg:pr-0 xl:pl-32">
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Mission</p>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Misión</p>
           <p className="mt-6 text-xl leading-8 text-gray-600">
           El Gobierno Autónomo Descentralizado de la Parroquia Vilcabamba tiene como misión servir a su comunidad con eficiencia y transparencia, promoviendo un desarrollo sostenible e inclusivo. Con nuestro compromiso y dedicación, trabajamos para mejorar la calidad de vida de nuestros habitantes, preservando la riqueza cultural, turística y natural de Vilcabamba, fomentando así, el bienestar de todos.
             </p>
